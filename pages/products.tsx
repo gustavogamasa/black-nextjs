@@ -1,11 +1,20 @@
-import React, { Component } from 'react'
+import Head from "next/head";
+import React, { Component } from "react";
+import Header from "../src/components/Header";
 
 export default class products extends Component {
   render() {
     return (
-      <div>
-        
-      </div>
-    )
+      <>
+        <Head>
+          <title>Carrinho</title>
+          <meta name="description" content="Meu carrinho de compras"></meta>
+          <link rel="icon" href="/favicon.ico"></link>
+        </Head>
+        <Header/>
+
+        <h1>Nossos produtos</h1>
+      </>
+    );
   }
 }

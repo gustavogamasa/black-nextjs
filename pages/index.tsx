@@ -1,5 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Header from '../src/components/Header'
+import { Button, Container } from 'reactstrap'
+import Link from 'next/link'
 
 
 const Home: NextPage = () => {
@@ -11,11 +14,25 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header/>
+
       <main>
-        <h1>Welcome</h1>
+        <Container className='py-5 text-center'>
+          <h1 className='mt-5 display-1'>
+            O melhor jeito de comprar
+          </h1>
+          <p className='my-4'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ad quam nam, fuga consequatur impedit nemo dignissimos itaque suscipit ab, pariatur fugiat inventore? Ipsum veniam fuga sint eligendi eius dignissimos?
+          </p>
+          <Link legacyBehavior href="/products">
+            <Button color='dark' className='px-4 pb-2'>
+              Conheça nossos produtos
+            </Button>
+          </Link>
+        </Container>
+        
       </main>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque error ullam qui impedit consequuntur a expedita quos dolorem alias, similique voluptas, nesciunt, aut quo provident? Voluptate consequatur ipsum fugiat labore.</p>
 
     </>
   )
