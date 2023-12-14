@@ -1,6 +1,9 @@
 import Head from "next/head";
 import React, { Component } from "react";
 import Header from "../src/components/Header";
+import { Container } from "reactstrap";
+import CartTableRow from "../src/components/CartTable";
+import CartTable from "../src/components/CartTable";
 
 export default class cart extends Component {
   render() {
@@ -14,6 +17,17 @@ export default class cart extends Component {
         <Header/>
     
     <h1>Carrinho</h1>
+
+    <main>
+        <Container className="mb-5">
+          <h1 className="my-5">
+            Carrinho
+          </h1>
+
+          <CartTable />
+        </Container>
+      </main>
+
     </>;
   }
 }
