@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <main>
         <Container className='py-5 text-center'>
           <h1 className='mt-5 display-1'>
-            O melhor jeito de comprar
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda quia, iste molestiae, commodi quas cupiditate accusantium et, suscipit eius voluptas expedita saepe voluptatum? Aspernatur corporis ut necessitatibus pariatur id?
           </h1>
           <p className='my-4'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ad quam nam, fuga consequatur impedit nemo dignissimos itaque suscipit ab, pariatur fugiat inventore? Ipsum veniam fuga sint eligendi eius dignissimos?
