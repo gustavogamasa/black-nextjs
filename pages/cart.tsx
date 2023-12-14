@@ -4,6 +4,7 @@ import Header from "../src/components/Header";
 import { Container } from "reactstrap";
 import CartTableRow from "../src/components/CartTable";
 import CartTable from "../src/components/CartTable";
+import CartTotal from "../src/components/CartTotal";
 
 export default class cart extends Component {
   render() {
@@ -25,6 +26,7 @@ export default class cart extends Component {
           </h1>
 
           <CartTable />
+          <CartTotal/>
         </Container>
       </main>
 
